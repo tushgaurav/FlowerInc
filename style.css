@@ -91,6 +91,10 @@ main {
   gap: 4rem;
 }
 
+.info-txt {
+  font-size: 28px;
+}
+
 .image {
   height: 20rem;
 }
