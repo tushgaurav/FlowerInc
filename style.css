@@ -125,18 +125,56 @@ main {
   font-size: 24px;
 }
 
-article {
-  height: 300vh;
+.quote-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15rem;
+  align-items: center;
+  padding: 4rem;
+}
+
+.quote-txt {
+  max-width: 40%;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 114%;
+  text-align: right;
+  letter-spacing: 0.015em;
+}
+
+.flower-img {
+  width: 25rem;
 }
 
 footer {
   padding: 1rem;
   background: rgba(26, 26, 146, 0.43);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.coulmns {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.footer-coulmn {
+  height: 10rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.footer-text {
   font-weight: 600;
   font-size: 18px;
   line-height: 36px;
